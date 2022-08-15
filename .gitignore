@@ -1,0 +1,6 @@
+.vagrant/
+.DS_Store
+loader.rb
+*.log
+Pipfile
+Pipfile.lock 
