@@ -1,14 +1,20 @@
 #!/usr/bin/env bash
 
-sudo apt update
-sudo apt upgrade
-sudo apt install postgresql
-sudo systemctl start postgresql.service 
-sudo apt install npm 
+apt update
+apt -y upgrade
+apt -y install npm
+apt -y install python3-pip
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+mkdir -p /home/vagrant/coding_projects/js /home/vagrant/coding_projects/python
+cd /home/vagrant/coding_projects/js  
+git clone https://github.com/thegreatmagnet/calculado
 
-source ~/.nvm/nvm.sh
+
+
+
+
+
+
 
 
 
